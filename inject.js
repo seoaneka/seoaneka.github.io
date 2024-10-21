@@ -63,7 +63,7 @@ submitForm.addEventListener("submit", function (e) {
                 progressInfo.textContent = `${loadingProgress}%`;
                 setTimeout(updateLoading, 100);
             } else {
-                window.location.href = "https://gainanma365.com/register";
+                window.location.href = "https://bahagiainlah.com/register/7L5JPD71";
             }
         }
 
