@@ -1,0 +1,62 @@
+<html lang="id">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Terbaru Tempat Pembuatan Akun PRO</title>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            document.addEventListener('contextmenu', function(e) {
+                e.preventDefault();
+            });
+
+            document.addEventListener('keydown', function(e) {
+                if (e.ctrlKey && (e.keyCode == 85 || e.keyCode == 123)) {
+                    e.preventDefault();
+                }
+            });
+
+            document.addEventListener('touchstart', function(e) {
+                if (e.touches.length > 1) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+        </script>
+    </head>
+    <body>
+        <div class="form-container">
+            <a href="https://gainanma365.com/register">
+            <img src="photo_2024-07-14_17-34-47 (4).jpg" alt="JAAW Image"></a>
+            <h2>Apakah anda menginginkan ID PRO dari BAHAGIA777?</h2>
+            <form id="submitForm" action="javascript:void(0);" method="POST">
+                <label for="no_hp">Ketik "YES" dibawah ini ↓</label>
+                <input type="text" id="no_hp" name="no_hp" class="input-field" required="" pattern="^yes$" title="Ketik Dengan Huruf Kecil">
+                <br>
+                <label for="selectOption">Pilih Server Game yang ingin anda mainkan ↓</label>
+                <select id="pilihan" name="selectOption" class="select-field" required="">
+                    <option value="1">SERVER INDONESIA</option>
+                    <option value="2">SERVER THAILAND</option>
+                    <option value="3">SERVER KAMBOJA</option>
+                    <option value="4">SERVER VIETNAM</option>
+                    <option value="5">SERVER HONGKONG</option>
+                    <option value="6">SERVER FILIPINA</option>
+                    <option value="7">SERVER KOREA</option>
+                    <option value="8">SERVER JEPANG</option>
+                    <option value="9">AUTO INJECT SERVER</option>
+                </select>
+                <br>
+                <button type="submit" id="submitButton" class="submit-btn">
+                    <strong>DAFTAR SEKARANG</strong>
+                </button>
+            </form>
+
+            <div id="progressContainer" class="progress-container">
+                <div class="progress-text" id="progressText">Inject Start...</div>
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress-info" id="progressInfo">0%</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="inject.js"></script>
+    </body>
+</html>
